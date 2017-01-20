@@ -53,6 +53,16 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <point key="canvasLocation" x="34.5" y="55.5"/>
         </view>
+        <tabBar contentMode="scaleToFill" id="OtR-qy-slN">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <items>
+                <tabBarItem systemItem="favorites" id="xmp-Gd-2b9"/>
+                <tabBarItem systemItem="more" id="QYq-5T-acf"/>
+            </items>
+            <point key="canvasLocation" x="-415" y="-61"/>
+        </tabBar>
     </objects>
     <resources>
         <image name="signinForm.png" width="220" height="72"/>

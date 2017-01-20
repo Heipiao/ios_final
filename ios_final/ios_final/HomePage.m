@@ -38,7 +38,7 @@
 
 - (void)addTabControllers
 {
-    self.tabBar.backgroundImage = [UIImage imageNamed:@"navgationbar.png"];
+    self.tabBar.backgroundImage = [UIImage imageNamed:@"tarbar1.png"];
     //self.tabBar.tintColor = RgbColor(198 , 91, 91);
     self.viewControllers = [PageInfo pageControllers];
 }

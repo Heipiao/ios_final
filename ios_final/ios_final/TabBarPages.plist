@@ -8,29 +8,29 @@
 		<key>Title</key>
 		<string>Favorite</string>
 		<key>Image</key>
-		<string>tab_bar_Favorite.png</string>
+		<string>icon_fire.png</string>
 		<key>SelectImage</key>
-		<string>tab_bar_Favorite.png_tab.png</string>
+		<string>icon_fire_tab.png</string>
 	</dict>
 	<dict>
 		<key>ClassName</key>
-		<string>discover</string>
+		<string>gamePage</string>
 		<key>Title</key>
 		<string>discover</string>
 		<key>Image</key>
-		<string></string>
+		<string>icon_star.png</string>
 		<key>SelectImage</key>
-		<string></string>
+		<string>icon_star_tab.png</string>
 	</dict>
 	<dict>
 		<key>ClassName</key>
-		<string>me</string>
+		<string>mePage</string>
 		<key>Title</key>
 		<string>me</string>
 		<key>Image</key>
-		<string>tar_bar_Profile.png</string>
+		<string>icon_me.png</string>
 		<key>SelectImage</key>
-		<string>tar_bar_Profile-Tab.png</string>
+		<string>icon_me.tab.png</string>
 	</dict>
 </array>
 </plist>

@@ -26,7 +26,7 @@
 
 - (void)setNavBarImage
 {
-    UIImage *image = [UIImage imageNamed:@"navgationbar.png"];
+    UIImage *image = [UIImage imageNamed:@"tarbar.png"];
     [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
     
