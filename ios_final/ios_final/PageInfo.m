@@ -7,6 +7,7 @@
 //
 
 #import "PageInfo.h"
+#import <UIKit/UIKit.h>
 
 @implementation PageInfo
 

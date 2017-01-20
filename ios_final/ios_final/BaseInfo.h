@@ -10,4 +10,7 @@
 
 @interface BaseInfo : NSObject
 
+@property(nonatomic, strong) NSString    *ID;
+@property(nonatomic, strong) NSString    *name;
+
 @end

@@ -23,7 +23,6 @@
 		5A0402BF1E32498400E56BDD /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0402BD1E32498400E56BDD /* LoginPage.m */; };
 		5A0402C01E32498400E56BDD /* LoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402BE1E32498400E56BDD /* LoginPage.xib */; };
 		5A0402C41E32499800E56BDD /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0402C21E32499800E56BDD /* HomePage.m */; };
-		5A0402C51E32499800E56BDD /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402C31E32499800E56BDD /* HomePage.xib */; };
 		5A0402CE1E324F3400E56BDD /* signinbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402CC1E324F3300E56BDD /* signinbackground.png */; };
 		5A0402CF1E324F3400E56BDD /* loginbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402CD1E324F3400E56BDD /* loginbackground.png */; };
 		5A0402D31E32501200E56BDD /* signinForm.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402D21E32501200E56BDD /* signinForm.png */; };
@@ -38,6 +37,10 @@
 		5A0402EA1E32700300E56BDD /* tab_bar_Favorite_tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402E51E32700300E56BDD /* tab_bar_Favorite_tab.png */; };
 		5A0402EB1E32700300E56BDD /* tab_bar_Favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402E61E32700300E56BDD /* tab_bar_Favorite.png */; };
 		5A0402EE1E32748B00E56BDD /* PageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0402ED1E32748B00E56BDD /* PageInfo.m */; };
+		5A0402F11E327C2900E56BDD /* TabBarPages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A0402F01E327C2900E56BDD /* TabBarPages.plist */; };
+		5A0402F41E328AC400E56BDD /* PicPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0402F31E328AC400E56BDD /* PicPages.m */; };
+		5A0402F71E329ACC00E56BDD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0402F61E329ACC00E56BDD /* CoreLocation.framework */; };
+		5A0402FA1E32A88300E56BDD /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0402F91E32A88300E56BDD /* Location.m */; };
 		EBBC89E66C5D416F2A2D0BB2 /* libPods-ios_finalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBADC668608ADBE3DDDFA527 /* libPods-ios_finalUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +82,6 @@
 		5A0402BE1E32498400E56BDD /* LoginPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginPage.xib; sourceTree = "<group>"; };
 		5A0402C11E32499800E56BDD /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		5A0402C21E32499800E56BDD /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
-		5A0402C31E32499800E56BDD /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
 		5A0402C61E324A0C00E56BDD /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		5A0402CC1E324F3300E56BDD /* signinbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signinbackground.png; path = ../../images/signinbackground.png; sourceTree = "<group>"; };
 		5A0402CD1E324F3400E56BDD /* loginbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginbackground.png; path = ../../images/loginbackground.png; sourceTree = "<group>"; };
@@ -97,6 +99,12 @@
 		5A0402E61E32700300E56BDD /* tab_bar_Favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_bar_Favorite.png; path = ../../images/tab_bar_Favorite.png; sourceTree = "<group>"; };
 		5A0402EC1E32748B00E56BDD /* PageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageInfo.h; sourceTree = "<group>"; };
 		5A0402ED1E32748B00E56BDD /* PageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageInfo.m; sourceTree = "<group>"; };
+		5A0402F01E327C2900E56BDD /* TabBarPages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBarPages.plist; sourceTree = "<group>"; };
+		5A0402F21E328AC400E56BDD /* PicPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicPages.h; sourceTree = "<group>"; };
+		5A0402F31E328AC400E56BDD /* PicPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicPages.m; sourceTree = "<group>"; };
+		5A0402F61E329ACC00E56BDD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5A0402F81E32A88300E56BDD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		5A0402F91E32A88300E56BDD /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		78CB13C87DEB23A1B7398A16 /* libPods-ios_final.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_final.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A810EBB5CDFC7BB1CFC46EF3 /* Pods-ios_final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_final/Pods-ios_final.debug.xcconfig"; sourceTree = "<group>"; };
 		E38872929650A2F3548D7ED1 /* Pods-ios_finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_finalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_finalUITests/Pods-ios_finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0402F71E329ACC00E56BDD /* CoreLocation.framework in Frameworks */,
 				1EB60BC01B1485D78439855C /* libPods-ios_final.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +226,7 @@
 		5A0402A61E3246CC00E56BDD /* Rescource */ = {
 			isa = PBXGroup;
 			children = (
+				5A0402EF1E327BE300E56BDD /* config */,
 				5A0402CA1E324BF800E56BDD /* Xib */,
 				5A0402C91E324B7500E56BDD /* images */,
 				5A04028B1E32441600E56BDD /* LaunchScreen.storyboard */,
@@ -252,6 +262,8 @@
 				5A0402BD1E32498400E56BDD /* LoginPage.m */,
 				5A0402C11E32499800E56BDD /* HomePage.h */,
 				5A0402C21E32499800E56BDD /* HomePage.m */,
+				5A0402F21E328AC400E56BDD /* PicPages.h */,
+				5A0402F31E328AC400E56BDD /* PicPages.m */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -272,7 +284,6 @@
 			isa = PBXGroup;
 			children = (
 				5A0402BE1E32498400E56BDD /* LoginPage.xib */,
-				5A0402C31E32499800E56BDD /* HomePage.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -309,6 +320,8 @@
 			children = (
 				5A0402DB1E32590500E56BDD /* GlobalInfo.h */,
 				5A0402DC1E32590500E56BDD /* GlobalInfo.m */,
+				5A0402F81E32A88300E56BDD /* Location.h */,
+				5A0402F91E32A88300E56BDD /* Location.m */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -333,9 +346,18 @@
 			name = TabBar;
 			sourceTree = "<group>";
 		};
+		5A0402EF1E327BE300E56BDD /* config */ = {
+			isa = PBXGroup;
+			children = (
+				5A0402F01E327C2900E56BDD /* TabBarPages.plist */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
 		656779FA9DCB854F9A4501AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A0402F61E329ACC00E56BDD /* CoreLocation.framework */,
 				78CB13C87DEB23A1B7398A16 /* libPods-ios_final.a */,
 				EBADC668608ADBE3DDDFA527 /* libPods-ios_finalUITests.a */,
 			);
@@ -397,6 +419,7 @@
 				TargetAttributes = {
 					5A0402791E32441600E56BDD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C3SQXZQM5G;
 						ProvisioningStyle = Automatic;
 					};
 					5A0402921E32441600E56BDD = {
@@ -436,7 +459,6 @@
 				5A0402D91E32532100E56BDD /* SignupButtonLarge.png in Resources */,
 				5A0402A51E3246BD00E56BDD /* GoogleService-Info.plist in Resources */,
 				5A0402C01E32498400E56BDD /* LoginPage.xib in Resources */,
-				5A0402C51E32499800E56BDD /* HomePage.xib in Resources */,
 				5A0402CE1E324F3400E56BDD /* signinbackground.png in Resources */,
 				5A0402D71E32532100E56BDD /* signinbutton.png in Resources */,
 				5A04028A1E32441600E56BDD /* Assets.xcassets in Resources */,
@@ -444,6 +466,7 @@
 				5A0402EA1E32700300E56BDD /* tab_bar_Favorite_tab.png in Resources */,
 				5A0402D31E32501200E56BDD /* signinForm.png in Resources */,
 				5A0402E71E32700300E56BDD /* TabBar.png in Resources */,
+				5A0402F11E327C2900E56BDD /* TabBarPages.plist in Resources */,
 				5A0402CF1E324F3400E56BDD /* loginbackground.png in Resources */,
 				5A0402E81E32700300E56BDD /* tab_bar_Profile-Tab.png in Resources */,
 				5A0402D81E32532100E56BDD /* LoginButtonLarge.png in Resources */,
@@ -559,6 +582,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A0402B81E3248EF00E56BDD /* BasePage.m in Sources */,
+				5A0402FA1E32A88300E56BDD /* Location.m in Sources */,
+				5A0402F41E328AC400E56BDD /* PicPages.m in Sources */,
 				5A0402C41E32499800E56BDD /* HomePage.m in Sources */,
 				5A0402A91E32477800E56BDD /* BaseInfo.m in Sources */,
 				5A0402851E32441600E56BDD /* ViewController.m in Sources */,
@@ -703,6 +728,8 @@
 			baseConfigurationReference = A810EBB5CDFC7BB1CFC46EF3 /* Pods-ios_final.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C3SQXZQM5G;
 				INFOPLIST_FILE = ios_final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sheffield.ios-final";
@@ -715,6 +742,8 @@
 			baseConfigurationReference = EF048D7B23684E6EAA257763 /* Pods-ios_final.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C3SQXZQM5G;
 				INFOPLIST_FILE = ios_final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sheffield.ios-final";

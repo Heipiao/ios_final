@@ -31,8 +31,8 @@
 -(void)showHomePage
 {
     HomePage *page = [[HomePage alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:page];
-    self.window.rootViewController = nav;
+   // UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:page];
+    self.window.rootViewController = page;
     [self.window makeKeyAndVisible];
 }
 

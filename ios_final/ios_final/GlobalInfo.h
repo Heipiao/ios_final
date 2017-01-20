@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "UserInfo.h"
+#import "Defines.h"
 
 @interface GlobalInfo : NSObject
 
 + (GlobalInfo *)global;
++ (BOOL)isSystemLowIOS8;
++ (BOOL)isSystemLowIOS7;
++ (BOOL)isSystemLowiOS6;
 @property(nonatomic, strong) UserInfo *useInfo;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "GlobalInfo.h"
+#import <UIKit/UIKit.h>
 
 
 @implementation GlobalInfo
@@ -31,5 +32,39 @@
     
     return self;
 }
+
++ (BOOL)isSystemLowIOS8
+{
+    UIDevice *device = [UIDevice currentDevice];
+    CGFloat systemVer = [[device systemVersion] floatValue];
+    if (systemVer - IOSBaseVersion8 < -0.001) {
+        return YES;
+    }
+    
+    return NO;
+}
+
++ (BOOL)isSystemLowIOS7
+{
+    UIDevice *device = [UIDevice currentDevice];
+    CGFloat systemVer = [[device systemVersion] floatValue];
+    if (systemVer - IOSBaseVersion7 < -0.001) {
+        return YES;
+    }
+    
+    return NO;
+}
+
++ (BOOL)isSystemLowiOS6
+{
+    UIDevice *device = [UIDevice currentDevice];
+    CGFloat systemVer = [[device systemVersion] floatValue];
+    if (systemVer < IOSBaseVersion6) {
+        return YES;
+    }
+    
+    return NO;
+}
+
 
 @end

@@ -14,4 +14,7 @@
 @property(nonatomic, strong) NSString    *selectImage;
 @property(nonatomic, assign) BOOL        unLoad;
 
+
++ (NSArray *)pageControllers;
+
 @end

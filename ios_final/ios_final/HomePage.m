@@ -2,11 +2,12 @@
 //  HomePage.m
 //  ios_final
 //
-//  Created by liu on 17/1/20.
+//  Created by liu on 17/1/2.
 //  Copyright © 2017年 liu. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import "HomePage.h"
+#import "PageInfo.h"
 
 @interface HomePage ()
 
@@ -14,25 +15,34 @@
 
 @implementation HomePage
 
-- (void)viewDidLoad {
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        [self addTabControllers];
+      
+    }
+    
+    return self;
+}
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    [self setNavBarImage];
-    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)addTabControllers
+{
+    self.tabBar.backgroundImage = [UIImage imageNamed:@"navgationbar.png"];
+    //self.tabBar.tintColor = RgbColor(198 , 91, 91);
+    self.viewControllers = [PageInfo pageControllers];
 }
-*/
+
+
 
 @end
