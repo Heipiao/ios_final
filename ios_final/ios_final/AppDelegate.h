@@ -1,0 +1,22 @@
+//
+//  AppDelegate.h
+//  ios_final
+//
+//  Created by liu on 17/1/20.
+//  Copyright © 2017年 liu. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@import Firebase;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
++ (AppDelegate *)appDeg;
+-(void)showLoginPage;
+-(void)showHomePage;
+
+@end
+
