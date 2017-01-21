@@ -16,7 +16,7 @@
 		<key>ClassName</key>
 		<string>gamePage</string>
 		<key>Title</key>
-		<string>discover</string>
+		<string>Discover</string>
 		<key>Image</key>
 		<string>icon_star.png</string>
 		<key>SelectImage</key>
@@ -26,7 +26,7 @@
 		<key>ClassName</key>
 		<string>mePage</string>
 		<key>Title</key>
-		<string>me</string>
+		<string>Me</string>
 		<key>Image</key>
 		<string>icon_me.png</string>
 		<key>SelectImage</key>

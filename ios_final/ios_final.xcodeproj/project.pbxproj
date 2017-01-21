@@ -46,6 +46,8 @@
 		5A04030B1E32D82400E56BDD /* icon_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0403051E32D82300E56BDD /* icon_star.png */; };
 		5A04030E1E32D92700E56BDD /* mePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A04030D1E32D92700E56BDD /* mePage.m */; };
 		5A0403111E32D95400E56BDD /* gamePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0403101E32D95400E56BDD /* gamePage.m */; };
+		5A0403131E32F12000E56BDD /* location_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0403121E32F12000E56BDD /* location_button.png */; };
+		5A0403161E330BDE00E56BDD /* PicsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0403151E330BDE00E56BDD /* PicsInfo.m */; };
 		EBBC89E66C5D416F2A2D0BB2 /* libPods-ios_finalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBADC668608ADBE3DDDFA527 /* libPods-ios_finalUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +119,9 @@
 		5A04030D1E32D92700E56BDD /* mePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mePage.m; sourceTree = "<group>"; };
 		5A04030F1E32D95400E56BDD /* gamePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamePage.h; sourceTree = "<group>"; };
 		5A0403101E32D95400E56BDD /* gamePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gamePage.m; sourceTree = "<group>"; };
+		5A0403121E32F12000E56BDD /* location_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_button.png; path = ../../images/location_button.png; sourceTree = "<group>"; };
+		5A0403141E330BDE00E56BDD /* PicsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicsInfo.h; sourceTree = "<group>"; };
+		5A0403151E330BDE00E56BDD /* PicsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicsInfo.m; sourceTree = "<group>"; };
 		78CB13C87DEB23A1B7398A16 /* libPods-ios_final.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_final.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A810EBB5CDFC7BB1CFC46EF3 /* Pods-ios_final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_final/Pods-ios_final.debug.xcconfig"; sourceTree = "<group>"; };
 		E38872929650A2F3548D7ED1 /* Pods-ios_finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_finalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_finalUITests/Pods-ios_finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -231,6 +236,8 @@
 				5A0402AE1E3247E400E56BDD /* UserInfo.m */,
 				5A0402EC1E32748B00E56BDD /* PageInfo.h */,
 				5A0402ED1E32748B00E56BDD /* PageInfo.m */,
+				5A0403141E330BDE00E56BDD /* PicsInfo.h */,
+				5A0403151E330BDE00E56BDD /* PicsInfo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -317,6 +324,7 @@
 		5A0402D01E324F4800E56BDD /* button */ = {
 			isa = PBXGroup;
 			children = (
+				5A0403121E32F12000E56BDD /* location_button.png */,
 				5A0402D41E32532100E56BDD /* signinbutton.png */,
 				5A0402D51E32532100E56BDD /* LoginButtonLarge.png */,
 				5A0402D61E32532100E56BDD /* SignupButtonLarge.png */,
@@ -492,6 +500,7 @@
 				5A0402FE1E32D5B200E56BDD /* tarbar1.png in Resources */,
 				5A0402D71E32532100E56BDD /* signinbutton.png in Resources */,
 				5A0403061E32D82400E56BDD /* icon_fire_tab.png in Resources */,
+				5A0403131E32F12000E56BDD /* location_button.png in Resources */,
 				5A0402FC1E32D3FD00E56BDD /* tarbar.png in Resources */,
 				5A04028A1E32441600E56BDD /* Assets.xcassets in Resources */,
 				5A0402881E32441600E56BDD /* Main.storyboard in Resources */,
@@ -611,6 +620,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0403161E330BDE00E56BDD /* PicsInfo.m in Sources */,
 				5A04030E1E32D92700E56BDD /* mePage.m in Sources */,
 				5A0402B81E3248EF00E56BDD /* BasePage.m in Sources */,
 				5A0402FA1E32A88300E56BDD /* Location.m in Sources */,

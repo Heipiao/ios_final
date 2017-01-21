@@ -16,6 +16,8 @@
 + (BOOL)isSystemLowIOS8;
 + (BOOL)isSystemLowIOS7;
 + (BOOL)isSystemLowiOS6;
+
+
 @property(nonatomic, strong) UserInfo *useInfo;
 
 @end
