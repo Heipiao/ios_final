@@ -10,6 +10,7 @@
 #import "Location.h"
 #import "GlobalInfo.h"
 
+
 @interface PicPages () <FxLocationDelegate>{
     Location *_location;
 }
@@ -22,7 +23,9 @@
     [self setNavBarImage];
     
     [self reloadLocation];
+    [self setNavigationRight];
 }
+
 
 - (IBAction)doLocation:(id)sender
 {
@@ -44,12 +47,13 @@
 -(void) didLocationAddress:(NSString *)address
 {
     BASE_INFO_FUN(address);
+   
 }
 
 -(void) didLocationCity:(NSString *)cityName
 {
-    [self setNavigationLeft:cityName];
     
+    [self setNavigationLeft:cityName];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     
     

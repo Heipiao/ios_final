@@ -6,8 +6,11 @@ target 'ios_final' do
   # use_frameworks!
 
   # Pods for ios_final
-  pod 'Firebase'
-  pod 'Firebase/Auth'
+pod 'Firebase'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'MBProgressHUD', '~> 1.0.0'
 
   target 'ios_finalUITests' do
     inherit! :search_paths

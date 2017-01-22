@@ -48,6 +48,14 @@
 		5A0403111E32D95400E56BDD /* gamePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0403101E32D95400E56BDD /* gamePage.m */; };
 		5A0403131E32F12000E56BDD /* location_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0403121E32F12000E56BDD /* location_button.png */; };
 		5A0403161E330BDE00E56BDD /* PicsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0403151E330BDE00E56BDD /* PicsInfo.m */; };
+		5A04031A1E33816800E56BDD /* PostPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0403181E33816800E56BDD /* PostPage.m */; };
+		5A04031B1E33816800E56BDD /* PostPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0403191E33816800E56BDD /* PostPage.xib */; };
+		5A04031D1E338ABF00E56BDD /* Content.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A04031C1E338ABF00E56BDD /* Content.html */; };
+		5A04031F1E33D61600E56BDD /* Post_backgoud.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A04031E1E33D61600E56BDD /* Post_backgoud.png */; };
+		5A0403271E33DC7400E56BDD /* Add Photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0403261E33DC7400E56BDD /* Add Photo.png */; };
+		5A04032C1E349CEC00E56BDD /* BaseWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A04032B1E349CEC00E56BDD /* BaseWidget.m */; };
+		5A0403301E349D1B00E56BDD /* TableWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A04032E1E349D1B00E56BDD /* TableWidget.m */; };
+		5A0403311E349D1B00E56BDD /* TableWidget.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A04032F1E349D1B00E56BDD /* TableWidget.xib */; };
 		EBBC89E66C5D416F2A2D0BB2 /* libPods-ios_finalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBADC668608ADBE3DDDFA527 /* libPods-ios_finalUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +130,17 @@
 		5A0403121E32F12000E56BDD /* location_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_button.png; path = ../../images/location_button.png; sourceTree = "<group>"; };
 		5A0403141E330BDE00E56BDD /* PicsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicsInfo.h; sourceTree = "<group>"; };
 		5A0403151E330BDE00E56BDD /* PicsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicsInfo.m; sourceTree = "<group>"; };
+		5A0403171E33816800E56BDD /* PostPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostPage.h; sourceTree = "<group>"; };
+		5A0403181E33816800E56BDD /* PostPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostPage.m; sourceTree = "<group>"; };
+		5A0403191E33816800E56BDD /* PostPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostPage.xib; sourceTree = "<group>"; };
+		5A04031C1E338ABF00E56BDD /* Content.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Content.html; sourceTree = "<group>"; };
+		5A04031E1E33D61600E56BDD /* Post_backgoud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Post_backgoud.png; sourceTree = "<group>"; };
+		5A0403261E33DC7400E56BDD /* Add Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add Photo.png"; sourceTree = "<group>"; };
+		5A04032A1E349CEC00E56BDD /* BaseWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWidget.h; sourceTree = "<group>"; };
+		5A04032B1E349CEC00E56BDD /* BaseWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWidget.m; sourceTree = "<group>"; };
+		5A04032D1E349D1B00E56BDD /* TableWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWidget.h; sourceTree = "<group>"; };
+		5A04032E1E349D1B00E56BDD /* TableWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableWidget.m; sourceTree = "<group>"; };
+		5A04032F1E349D1B00E56BDD /* TableWidget.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableWidget.xib; sourceTree = "<group>"; };
 		78CB13C87DEB23A1B7398A16 /* libPods-ios_final.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_final.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A810EBB5CDFC7BB1CFC46EF3 /* Pods-ios_final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_final/Pods-ios_final.debug.xcconfig"; sourceTree = "<group>"; };
 		E38872929650A2F3548D7ED1 /* Pods-ios_finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_finalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_finalUITests/Pods-ios_finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -249,6 +268,7 @@
 				5A0402CA1E324BF800E56BDD /* Xib */,
 				5A0402C91E324B7500E56BDD /* images */,
 				5A04028B1E32441600E56BDD /* LaunchScreen.storyboard */,
+				5A04031C1E338ABF00E56BDD /* Content.html */,
 				5A0402891E32441600E56BDD /* Assets.xcassets */,
 				5A0402861E32441600E56BDD /* Main.storyboard */,
 			);
@@ -267,6 +287,8 @@
 			children = (
 				5A0402B21E3248BE00E56BDD /* BaseView.h */,
 				5A0402B31E3248BE00E56BDD /* BaseView.m */,
+				5A0403281E349BC900E56BDD /* Cell */,
+				5A0403291E349C3F00E56BDD /* Widget */,
 				5A0402B51E3248C400E56BDD /* Pages */,
 			);
 			name = View;
@@ -287,6 +309,8 @@
 				5A04030D1E32D92700E56BDD /* mePage.m */,
 				5A04030F1E32D95400E56BDD /* gamePage.h */,
 				5A0403101E32D95400E56BDD /* gamePage.m */,
+				5A0403171E33816800E56BDD /* PostPage.h */,
+				5A0403181E33816800E56BDD /* PostPage.m */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -308,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				5A0402BE1E32498400E56BDD /* LoginPage.xib */,
+				5A0403191E33816800E56BDD /* PostPage.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -315,6 +340,7 @@
 		5A0402CB1E324F1A00E56BDD /* background */ = {
 			isa = PBXGroup;
 			children = (
+				5A04031E1E33D61600E56BDD /* Post_backgoud.png */,
 				5A0402CC1E324F3300E56BDD /* signinbackground.png */,
 				5A0402CD1E324F3400E56BDD /* loginbackground.png */,
 			);
@@ -324,6 +350,7 @@
 		5A0402D01E324F4800E56BDD /* button */ = {
 			isa = PBXGroup;
 			children = (
+				5A0403261E33DC7400E56BDD /* Add Photo.png */,
 				5A0403121E32F12000E56BDD /* location_button.png */,
 				5A0402D41E32532100E56BDD /* signinbutton.png */,
 				5A0402D51E32532100E56BDD /* LoginButtonLarge.png */,
@@ -387,6 +414,25 @@
 				5A0403051E32D82300E56BDD /* icon_star.png */,
 			);
 			name = icon;
+			sourceTree = "<group>";
+		};
+		5A0403281E349BC900E56BDD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		5A0403291E349C3F00E56BDD /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5A04032A1E349CEC00E56BDD /* BaseWidget.h */,
+				5A04032B1E349CEC00E56BDD /* BaseWidget.m */,
+				5A04032D1E349D1B00E56BDD /* TableWidget.h */,
+				5A04032E1E349D1B00E56BDD /* TableWidget.m */,
+				5A04032F1E349D1B00E56BDD /* TableWidget.xib */,
+			);
+			name = Widget;
 			sourceTree = "<group>";
 		};
 		656779FA9DCB854F9A4501AD /* Frameworks */ = {
@@ -488,10 +534,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0403311E349D1B00E56BDD /* TableWidget.xib in Resources */,
 				5A04030A1E32D82400E56BDD /* icon_star_tab.png in Resources */,
 				5A04028D1E32441600E56BDD /* LaunchScreen.storyboard in Resources */,
+				5A04031D1E338ABF00E56BDD /* Content.html in Resources */,
 				5A0402E01E326F7600E56BDD /* navgationbar.png in Resources */,
 				5A04030B1E32D82400E56BDD /* icon_star.png in Resources */,
+				5A04031B1E33816800E56BDD /* PostPage.xib in Resources */,
 				5A0402D91E32532100E56BDD /* SignupButtonLarge.png in Resources */,
 				5A0402A51E3246BD00E56BDD /* GoogleService-Info.plist in Resources */,
 				5A0402C01E32498400E56BDD /* LoginPage.xib in Resources */,
@@ -507,9 +556,11 @@
 				5A0402D31E32501200E56BDD /* signinForm.png in Resources */,
 				5A0402F11E327C2900E56BDD /* TabBarPages.plist in Resources */,
 				5A0403091E32D82400E56BDD /* icon_me.png in Resources */,
+				5A04031F1E33D61600E56BDD /* Post_backgoud.png in Resources */,
 				5A0402CF1E324F3400E56BDD /* loginbackground.png in Resources */,
 				5A0403081E32D82400E56BDD /* icon_me_tab.png in Resources */,
 				5A0402D81E32532100E56BDD /* LoginButtonLarge.png in Resources */,
+				5A0403271E33DC7400E56BDD /* Add Photo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +674,8 @@
 				5A0403161E330BDE00E56BDD /* PicsInfo.m in Sources */,
 				5A04030E1E32D92700E56BDD /* mePage.m in Sources */,
 				5A0402B81E3248EF00E56BDD /* BasePage.m in Sources */,
+				5A0403301E349D1B00E56BDD /* TableWidget.m in Sources */,
+				5A04031A1E33816800E56BDD /* PostPage.m in Sources */,
 				5A0402FA1E32A88300E56BDD /* Location.m in Sources */,
 				5A0402F41E328AC400E56BDD /* PicPages.m in Sources */,
 				5A0402C41E32499800E56BDD /* HomePage.m in Sources */,
@@ -635,6 +688,7 @@
 				5A0402AF1E3247E400E56BDD /* UserInfo.m in Sources */,
 				5A0403111E32D95400E56BDD /* gamePage.m in Sources */,
 				5A04027F1E32441600E56BDD /* main.m in Sources */,
+				5A04032C1E349CEC00E56BDD /* BaseWidget.m in Sources */,
 				5A0402B41E3248BE00E56BDD /* BaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

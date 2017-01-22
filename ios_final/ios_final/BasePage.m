@@ -8,6 +8,7 @@
 
 #import "BasePage.h"
 
+
 @interface BasePage ()
 
 @end
@@ -24,14 +25,52 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+- (UIButton *)customButton:(NSString *)imageName
+                  selector:(SEL)sel
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    btn.frame = CGRectMake(0, 0, 30, 44);
+    [btn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+    [btn addTarget:self action:sel forControlEvents:UIControlEventTouchUpInside];
+    
+    return btn;
 }
-*/
+
+- (void)setNavigationRight
+{
+    UIView *rightView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 30, 44)];
+    UIButton *locationBtn = [self customButton:@"location_button.png" selector:@selector(dopost:)];
+    
+    [rightView addSubview:locationBtn];
+    
+    CGRect frame = locationBtn.frame;
+    frame.origin.x = 0;
+    locationBtn.frame = frame;
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:rightView];
+    
+    self.navigationItem.rightBarButtonItem = item;
+}
+
+- (void)setNavigationLeft:(NSString *)name
+{
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:name style:UIBarButtonItemStylePlain target:self action:@selector(doLeft:)];
+    self.navigationItem.leftBarButtonItem = item;
+}
+
+- (IBAction)doLeft:(id)sender
+{
+}
+
+- (IBAction)dopost:(id)sender
+{
+    PostPage *post = [[PostPage alloc]init];
+    [self.navigationController pushViewController:post animated:YES];
+}
+
+
 
 @end

@@ -11,6 +11,6 @@
 @interface BaseView : UIViewController
 
 - (void)setNavBarImage;
-- (void)setNavigationLeft:(NSString *)name;
+
 
 @end

@@ -9,6 +9,8 @@
 #import "HomePage.h"
 #import "PageInfo.h"
 
+
+
 @interface HomePage ()
 
 @end
@@ -42,6 +44,7 @@
     //self.tabBar.tintColor = RgbColor(198 , 91, 91);
     self.viewControllers = [PageInfo pageControllers];
 }
+
 
 
 

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "LoginPage.h"
 #import "HomePage.h"
+#import "PostPage.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,14 @@
 + (AppDelegate *)appDeg
 {
     return  (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
+
+-(void)showPostPage
+{
+    PostPage *page = [[PostPage alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:page];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
 }
 
 -(void)showLoginPage

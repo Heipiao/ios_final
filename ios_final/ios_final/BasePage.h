@@ -8,7 +8,13 @@
 
 #import "BaseView.h"
 #import "Defines.h"
+#import "PostPage.h"
+
 
 @interface BasePage : BaseView
+
+- (IBAction)dopost:(id)sender;
+- (void)setNavigationLeft:(NSString *)name;
+- (void)setNavigationRight;
 
 @end
